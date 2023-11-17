@@ -9,4 +9,6 @@ router.post('/create', controller.createToDo);
 
 router.post('/delete', controller.deleteOneTodo);
 
+router.post('/findByStatus', controller.getTodoListOnStatus);
+
 module.exports = router;
